@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2adc5db2-2bea-4a98-9fd6-f8a14111626b" name="Default Changelist" comment="" />
+    <list default="true" id="2adc5db2-2bea-4a98-9fd6-f8a14111626b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CoinTossing/CoinTassing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Reversing/Reversing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +20,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UTVkSmfF3Qn5GoLgouL46DYjGx" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -28,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CircleArea">
+  <component name="RunManager" selected="Application.CoinTassing">
     <configuration name="CircleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Circle.CircleArea" />
       <module name="Chapitre6" />
@@ -42,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hypotenuse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Hypotenuse.Hypotenuse" />
+    <configuration name="CoinTassing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.CoinTossing.CoinTassing" />
       <module name="Chapitre6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Hypotenuse.*" />
+          <option name="PATTERN" value="com.company.CoinTossing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,22 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Chapitre6" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingCharges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Parking.ParkingCharges" />
+    <configuration name="Reversing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Reversing.Reversing" />
       <module name="Chapitre6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Parking.*" />
+          <option name="PATTERN" value="com.company.Reversing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,20 +92,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thermometre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Thermometer.Thermometre" />
+      <module name="Chapitre6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Thermometer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ParkingCharges" />
-      <item itemvalue="Application.Hypotenuse" />
       <item itemvalue="Application.Square" />
       <item itemvalue="Application.CircleArea" />
+      <item itemvalue="Application.Thermometre" />
+      <item itemvalue="Application.Reversing" />
+      <item itemvalue="Application.CoinTassing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinTassing" />
+        <item itemvalue="Application.Reversing" />
+        <item itemvalue="Application.Thermometre" />
         <item itemvalue="Application.CircleArea" />
         <item itemvalue="Application.Square" />
-        <item itemvalue="Application.Hypotenuse" />
-        <item itemvalue="Application.ParkingCharges" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -120,5 +134,18 @@
       <updated>1575380714548</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
